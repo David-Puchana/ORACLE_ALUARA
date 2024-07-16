@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02a49364-de37-4b16-a29c-cff484496b52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/calculos/CalculadoraDeTiempo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/calculos/Clasificable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/calculos/FiltroRecomendacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/exception/ErrorinDurationConversionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/modelos/Episodio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/modelos/Pelicula.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/modelos/TitleOmdb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/modelos/Titulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/principal/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/principal/PrincipalConBusqueda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/src/com/alura/screenmatch/principal/PrincipalConListas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2047-screenmatch4-Aula1-Fin/titles.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2jFHJFlGa4TBacDEyUKmocSrH50" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/david-puchana/Documentos/Alura-Java/screenmatch"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02a49364-de37-4b16-a29c-cff484496b52" name="Changes" comment="" />
+      <created>1720975830500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720975830500</updated>
+    </task>
+    <servers />
+  </component>
+</project>

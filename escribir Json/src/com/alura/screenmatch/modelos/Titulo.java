@@ -1,14 +1,10 @@
 package com.alura.screenmatch.modelos;
 
-import com.alura.screenmatch.exception.ErrorinDurationConversionException;
-import com.google.gson.annotations.SerializedName;
+import com.alura.screenmatch.excepcion.ErrorEnConversionDeDuracionException;
 
 public class Titulo implements Comparable<Titulo>{
-
-    @SerializedName("Title")
     private String nombre;
     private int fechaDeLanzamiento;
-    @SerializedName("Year")
     private boolean incluidoEnElPlan;
     private double sumaDeLasEvaluaciones;
     private int totalDeEvaluaciones;
@@ -19,13 +15,16 @@ public class Titulo implements Comparable<Titulo>{
         this.fechaDeLanzamiento = fechaDeLanzamiento;
     }
 
-    public Titulo(TitleOmdb myTitleOmdb) {
-        this.nombre = myTitleOmdb.title();
-        this.fechaDeLanzamiento = Integer.valueOf(myTitleOmdb.year()) ;
-        if(myTitleOmdb.runtime().contains("N/A")){
-            throw new ErrorinDurationConversionException("N/A data, impossible to convert to integer");
+    public Titulo(TituloOmdb miTituloOmdb) {
+        this.nombre = miTituloOmdb.title();
+        this.fechaDeLanzamiento = Integer.valueOf(miTituloOmdb.year());
+        if (miTituloOmdb.runtime().contains("N/A")){
+            throw new ErrorEnConversionDeDuracionException("No pude convertir la duracion," +
+                    "porque contiene un N/A");
         }
-        this.duracionEnMinutos = Integer.valueOf(myTitleOmdb.runtime().split(" ")[0]);
+        this.duracionEnMinutos = Integer.valueOf(
+                miTituloOmdb.runtime().substring(0,3).replace(" ","")
+        );
     }
 
     public String getNombre() {
@@ -85,9 +84,8 @@ public class Titulo implements Comparable<Titulo>{
 
     @Override
     public String toString() {
-        return "Titulo \n" +
-                "Nombre: " + nombre + '\n' +
-                "Fecha de Lanzamiento: " + fechaDeLanzamiento + '\n' +
-                "Duracion en Minutos: " + duracionEnMinutos;
+        return "(nombre=" + nombre +
+                ", fechaDeLanzamiento=" + fechaDeLanzamiento+
+                ", duracion="+duracionEnMinutos+")";
     }
 }
